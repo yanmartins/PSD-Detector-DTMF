@@ -7,6 +7,10 @@ fpass_PB = sqrt(941*1209);
 
 fpb_ret = 1/(2*pi*0.005);
 
+% Atenuações (dB)
+a_stop = 30;
+a_pass = 3;
+
 % Linha 1
 fc_l1 = 679;
 fs1_l1 = 601.55;
