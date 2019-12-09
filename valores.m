@@ -1,7 +1,11 @@
 fs = 44100;
 
+fs_down = 44100/10;
+
 fpass_PA = sqrt(941*1209);
-fpass_PA = sqrt(941*1209);
+fpass_PB = sqrt(941*1209);
+
+fpb_ret = 1/(2*pi*0.005);
 
 % Linha 1
 fc_l1 = 679;
