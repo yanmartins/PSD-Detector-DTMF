@@ -1,13 +1,13 @@
+% ----------- SUBAMOSTRADOR
 fs = 44100;
 N = 10;
 fpass_N = 44100/(2*N);
 
+% ----------- DISCRIMINADOR DE FREQUÊNCIAS
 fs_down = 44100/10;
 
 fpass_PA = sqrt(941*1209);
 fpass_PB = sqrt(941*1209);
-
-fpb_ret = 1/(2*pi*0.005);
 
 % Atenuações (dB)
 a_stop = 30;
@@ -69,3 +69,5 @@ fp1_c4 = 1606.505;
 fp2_c4 = 1659.495;
 fs2_c4 = 1764.845;
 
+% Filtro passa-baixa após retificador
+fpb_ret = 1/(2*pi*0.005);
