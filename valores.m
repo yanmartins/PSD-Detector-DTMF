@@ -3,13 +3,13 @@ fs = 44100;
 N = 10;
 fpass_N = 44100/(2*N);
 
-% ----------- DISCRIMINADOR DE FREQUÊNCIAS
+% ----------- DISCRIMINADOR DE FREQUENCIAS
 fs_down = 44100/10;
 
 fpass_PA = sqrt(941*1209);
 fpass_PB = sqrt(941*1209);
 
-% Atenuações (dB)
+% Atenuacoes (dB)
 a_stop = 30;
 a_pass = 3;
 
@@ -69,5 +69,13 @@ fp1_c4 = 1606.505;
 fp2_c4 = 1659.495;
 fs2_c4 = 1764.845;
 
-% Filtro passa-baixa após retificador
+% Delay devido ao atraso de grupo
+delay_l1 = 12;
+delay_l4 = 5;
+delay_c1 = 24;
+delay_c2 = 24;
+delay_c3 = 28;
+delay_c4 = 31;
+
+% Filtro passa-baixa apos retificador
 fpb_ret = 1/(2*pi*0.005);
