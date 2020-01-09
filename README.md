@@ -15,4 +15,4 @@ Neste projeto, foi realizada a modelagem e o desenvolvimento de um sistema para 
 
 A figura a seguir detalha o sistema implementado:
 
-![diagrama](https://github.com/yanmartins/PSD-detector-dtmf/blob/master/diagrama_dtmf.png)
+![diagrama](https://github.com/yanmartins/PSD-detector-dtmf/blob/master/imagens/diagrama_dtmf.png)
